@@ -43,7 +43,7 @@ let numbers = [];
 //         a) Use prompt() to ask "Enter number " + (i + 1)
 //         b) Use parseFloat() to convert the input to a number
 //         c) Use .push() to add the number to the array
-for (let i = 0; i <5; i++){
+for (let i = 0; i < 5; i++){
     numbers.push(parseFloat(prompt("Enter number " + (i+1))));
 }
 
@@ -62,7 +62,7 @@ let evens = 0;
 let biggest = numbers[0];
 
 for(let i = 0; i < numbers.length; i++){
-    if (i == numbers.length){
+    if (i == numbers.length-1){
         list += numbers[i];
     }
     else{
